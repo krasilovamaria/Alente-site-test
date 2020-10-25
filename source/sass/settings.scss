@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  font-family: $font-mono;
+  font-size: 16px;
+  line-height: 18px;
+  color: $black;
+  background-color: $white;
+  counter-reset: section;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}

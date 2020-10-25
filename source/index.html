@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My site for Alente</title>
+  <link href="fonts/PTMono-Regular.woff2" rel="preload" as="font" crossorigin="anonymous">
+  <link href="fonts/RobotoCondensed-Bold.woff2" rel="preload" as="font" crossorigin="anonymous">
+  <link href="fonts/RobotoCondensed-Regular.woff2" rel="preload" as="font" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-  <h1></h1>
+
+  <div class="container">
+
+    <header class="page-header">
+
+      <div class="user-nav">
+        <div class="user-nav__container">
+          <ul class="user-nav__user-list user-list">
+            <li class="user-list__item">
+              <a href="#">
+                <span class="visually-hidden">Мы в Фейсбук</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27">
+                  <use xlink:href="img/sprite.svg#icon-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="user-list__item">
+              <a href="#">
+                <span class="visually-hidden">Мы в Одноклассниках</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27">
+                  <use xlink:href="img/sprite.svg#icon-ok"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="user-list__item">
+              <a href="#">
+                <span class="visually-hidden">Мы в ВКонтакте</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27">
+                  <use xlink:href="img/sprite.svg#icon-vk"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="user-nav__direction">
+            <p>Москва</p>
+          </div>
+          <p class="user-nav__tel"><a href="tel:+7(499)240-10-01">+7 (499) 240-10-01</a></p>
+          <div class="user-nav__cart-container">
+            <a class="user-nav__login" href="#" aria-label="Вход">Войти</a>
+            <div class="user-nav__cart">
+              <a href="#" aria-label="Корзина">Корзина</a>
+              <span class="user-nav__count">3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <div class="main-nav__container">
+          <a class="main-nav__logo">
+            <img src="https://picsum.photos/id/1059/160/40" width="160" height="40" alt="Логотип ателье">
+          </a>
+          <ul class="main-nav__list">
+            <li><a href="#">Пошив одежды</a></li>
+            <li><a href="#">Интернет магазин</a></li>
+            <li><a href="#">О магазине</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+
+  </div>
+
+  <main class="page-main">
+    <h1 class="visually-hidden">Сеть ателье "Мой костюм"</h1>
+    <section class="page-main__promo promo">
+      <div class="promo__img-container">
+        <p>Мода - Вопрос Денег. Стиль - Вопрос Индивидуальности.</p>
+      </div>
+    </section>
+  </main>
+
 </body>
+
 </html>

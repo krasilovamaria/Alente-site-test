@@ -50,7 +50,12 @@
           <div class="user-nav__direction">
             <p>Москва</p>
           </div>
-          <p class="user-nav__tel"><a href="tel:+7(499)240-10-01">+7 (499) 240-10-01</a></p>
+          <a class="user-nav__phone" href="tel:+7(499)240-10-01">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            <span>+7 (499) 240-10-01</span>
+          </a>
           <div class="user-nav__cart-container">
             <a class="user-nav__login" href="#" aria-label="Вход">Войти</a>
             <div class="user-nav__cart">
@@ -84,8 +89,81 @@
     <h1 class="visually-hidden">Сеть ателье "Мой костюм"</h1>
     <section class="page-main__promo promo">
       <div class="promo__img-container">
+        <h2 class="visually-hidden">Про моду</h2>
         <p>Мода - Вопрос Денег. Стиль - Вопрос Индивидуальности.</p>
       </div>
+    </section>
+    <section class="page-main__catalog catalog">
+      <h2 class="visually-hidden">Каталог магазина</h2>
+      <ul class="catalog__list">
+        <li><a href="#">Костюмы</a></li>
+        <li><a href="#">Сорочки</a></li>
+        <li><a href="#">Пальто</a></li>
+        <li><a href="#">Обувь</a></li>
+        <li><a href="#">Запонки</a></li>
+        <li><a href="#">Галстуки</a></li>
+        <li><a href="#">Джинсы</a></li>
+        <li><a href="#">Нижнее белье</a></li>
+        <li><a href="#">Кепки</a></li>
+      </ul>
+    </section>
+    <section class="page-main__advertising advertising">
+      <h2 class="visually-hidden">Реклама</h2>
+      <ul class="advertising__list">
+        <li class="advertising__item advertising__item--blazer">
+          <a href="#">
+            <img src="https://picsum.photos/300/250" width="300" height="250" alt="Фотография пиджака">
+            <div class="advertising__item-container">
+              <h3>Однобортный пиджак Louis Purple</h3>
+              <p>Новая коллекция</p>
+            </div>
+          </a>
+        </li>
+        <li class="advertising__item advertising__item--vest">
+          <a href="#">
+            <img src="https://picsum.photos/300/250" width="300" height="250" alt="Фотография пиджака и жилета">
+            <div class="advertising__item-container">
+              <h3 class="advertising__item-text-vest">Пиджаки и жилеты</h3>
+            </div>
+          </a>
+        </li>
+        <li class="advertising__item advertising__item--shirt">
+          <a href="#">
+            <img src="https://picsum.photos/300/250" width="300" height="250" alt="Фотография сорочки">
+            <div class="advertising__item-container">
+              <p>Процесс создания Вашей будущей сорочки - это наше совместное творчество</p>
+            </div>
+          </a>
+        </li>
+        <li class="advertising__item advertising__item--shoes">
+          <a href="#">
+            <img src="https://picsum.photos/300/250" width="300" height="250" alt="Фотография обуви">
+            <div class="advertising__item-container">
+              <h3>Готовая обувь<br> Lo White и Castori</h3>
+              <p class="advertising__item-text">Пошив обуви на заказ</p>
+            </div>
+          </a>
+        </li>
+        <li class="advertising__item advertising__item--cufflink">
+          <a href="#">
+            <img src="https://picsum.photos/300/250" width="300" height="250" alt="Фотография запонок">
+            <div class="advertising__item-container">
+              <h3>Запонки Tateossian</h3>
+              <p>Известный английский производитель аксессуаров</p>
+            </div>
+          </a>
+        </li>
+        <li class="advertising__item advertising__item--scarf">
+          <a href="#">
+            <img src="https://picsum.photos/300/250" width="300" height="250" alt="Фотография шарфа">
+            <div class="advertising__item-container">
+              <p class="advertising__item-blog">Блог</p>
+              <h3>Связать воедино: выбираем шарф!</h3>
+              <p>26 октября | 2020</p>
+            </div>
+          </a>
+        </li>
+      </ul>
     </section>
   </main>
 

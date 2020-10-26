@@ -58,3 +58,37 @@
   }
 }
 
+@media (min-width: $tablet-width-min) and (max-width: $tablet-width-max) {
+  .catalog__list {
+    max-width: 470px;
+    width: 100%;
+
+    li {
+      margin-left: 1%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: $mobile-width) and (max-width: $mobile-width-only) {
+  .catalog__list {
+    padding: 10px 5px;
+    min-width: 270px;
+    width: 100%;
+    flex-direction: column;
+
+    li {
+      margin-left: 1%;
+      margin-bottom: 10px;
+      width: 100%;
+      border-top: 1px solid $orange;
+      border-bottom: 1px solid $orange;
+      text-align: center;
+
+      &:hover,
+      &:hover {
+        border: none;
+      }
+    }
+  }
+}

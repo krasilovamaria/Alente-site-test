@@ -46,3 +46,27 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media (min-width: $tablet-width-min) and (max-width: $tablet-width-max) {
+  .advantages__list {
+    display: none;
+  }
+}
+
+@media (min-width: $mobile-width) and (max-width: $mobile-width-only) {
+  .advantages__list {
+    display: none;
+  }
+
+  .advantages__container {
+    h3 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

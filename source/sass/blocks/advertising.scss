@@ -94,3 +94,15 @@
     }
   }
 }
+
+@media (min-width: $mobile-width) and (max-width: $mobile-width-only) {
+  .advertising__list {
+    flex-direction: column;
+
+    li {
+      margin: 0;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+}

@@ -29,6 +29,10 @@
 .user-nav__phone {
   display: flex;
   align-items: center;
+
+  svg {
+    margin-right: 5px;
+  }
 }
 
 .user-nav__cart:hover,

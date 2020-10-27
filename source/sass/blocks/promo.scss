@@ -41,3 +41,25 @@
     background-color: $white;
   }
 }
+
+@media (min-width: $mobile-width) and (max-width: $mobile-width-only) {
+  .promo {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .promo__img-container {
+    width: 100%;
+  }
+
+  .promo p {
+    width: 300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    &::before,
+    &::after {
+      right: 25%;
+    }
+  }
+}

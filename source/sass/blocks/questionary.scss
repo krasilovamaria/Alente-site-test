@@ -80,3 +80,13 @@
   background-color: $orange;
   box-shadow: 0 3px 5px 1px rgba(#000000, 0.25);
 }
+
+@media (min-width: $mobile-width) and (max-width: $mobile-width-only) {
+  .questionary__input-field {
+    width: 100%;
+  }
+
+  .questionary__button {
+    width: 100%;
+  }
+}
